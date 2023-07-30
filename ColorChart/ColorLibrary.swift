@@ -9,7 +9,8 @@
 import Foundation
 import SwiftUI
 
-struct ColorAsset {
+struct ColorAsset: Identifiable {
+    let id = UUID()
     let name: String
     let color: Color
 
@@ -24,7 +25,8 @@ struct ColorAsset {
     }
 }
 
-struct ColorCategory {
+struct ColorCategory: Identifiable {
+    let id = UUID()
     let name: String
     let colorAssets: [ColorAsset]
 }
