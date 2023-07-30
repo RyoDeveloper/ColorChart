@@ -10,21 +10,35 @@ import SwiftUI
 
 struct ContentView: View {
     let colorLibrary = ColorLibrary()
+    @State var selection: ColorAsset?
 
     var body: some View {
-        List(colorLibrary.colors) { library in
-            Section(library.name) {
-                ForEach(library.colorAssets) { assets in
-                    Label {
-                        Text(assets.name)
-                    } icon: {
-                        Image(systemName: "app.fill")
-                            .font(.title2)
-                            .foregroundColor(assets.color)
+        NavigationSplitView {
+            NavigationStack {
+                List(colorLibrary.colors, selection: $selection) { library in
+                    Section(library.name) {
+                        ForEach(library.colorAssets) { assets in
+                            Label {
+                                Text(assets.name)
+                            } icon: {
+                                Image(systemName: "app.fill")
+                                    .font(.title2)
+                                    .foregroundColor(assets.color)
+                            }
+                            .tag(assets)
+                        }
                     }
                 }
             }
+            .navigationTitle("ColorChart")
+        } detail: {
+            if let selection {
+                DetailView(selection: selection)
+            } else {
+                Text("選択してください。")
+            }
         }
+        .navigationSplitViewStyle(.balanced)
     }
 }
 

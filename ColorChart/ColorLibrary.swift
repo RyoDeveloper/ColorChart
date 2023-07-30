@@ -9,7 +9,7 @@
 import Foundation
 import SwiftUI
 
-struct ColorAsset: Identifiable {
+struct ColorAsset: Identifiable, Hashable {
     let id = UUID()
     let name: String
     let color: Color

@@ -15,6 +15,7 @@
 		2A5FDA432A6CF70900DD7A34 /* ColorChartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FDA422A6CF70900DD7A34 /* ColorChartUITests.swift */; };
 		2A5FDA452A6CF70900DD7A34 /* ColorChartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FDA442A6CF70900DD7A34 /* ColorChartUITestsLaunchTests.swift */; };
 		2A77ED1B2A7607AE00296720 /* ColorLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77ED1A2A7607AE00296720 /* ColorLibrary.swift */; };
+		2A77ED1D2A762B8500296720 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A77ED1C2A762B8500296720 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		2A5FDA422A6CF70900DD7A34 /* ColorChartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChartUITests.swift; sourceTree = "<group>"; };
 		2A5FDA442A6CF70900DD7A34 /* ColorChartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChartUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2A77ED1A2A7607AE00296720 /* ColorLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLibrary.swift; sourceTree = "<group>"; };
+		2A77ED1C2A762B8500296720 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				2A5FDA272A6CF70800DD7A34 /* ColorChartApp.swift */,
 				2A5FDA292A6CF70800DD7A34 /* ContentView.swift */,
+				2A77ED1C2A762B8500296720 /* DetailView.swift */,
 				2A77ED1A2A7607AE00296720 /* ColorLibrary.swift */,
 				2A5FDA2B2A6CF70900DD7A34 /* Assets.xcassets */,
 				2A5FDA2D2A6CF70900DD7A34 /* Preview Content */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A5FDA2A2A6CF70800DD7A34 /* ContentView.swift in Sources */,
+				2A77ED1D2A762B8500296720 /* DetailView.swift in Sources */,
 				2A77ED1B2A7607AE00296720 /* ColorLibrary.swift in Sources */,
 				2A5FDA282A6CF70800DD7A34 /* ColorChartApp.swift in Sources */,
 			);
