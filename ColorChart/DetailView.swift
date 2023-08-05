@@ -19,14 +19,7 @@ struct DetailView: View {
                 .textSelection(.enabled)
                 .frame(maxWidth: .infinity, alignment: .leading)
 
-            VStack(alignment: .leading) {
-                Text("red:")
-                Text("green:")
-                Text("blue:")
-                Text("opacity:")
-            }
-            .font(.title)
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            ColorElementsView(color: selection.color)
 
             Image(systemName: "app.fill")
                 .resizable()

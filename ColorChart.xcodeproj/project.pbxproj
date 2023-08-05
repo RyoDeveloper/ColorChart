@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1E7D9F2A7E991100D6027F /* ColorElementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E7D9E2A7E991100D6027F /* ColorElementsView.swift */; };
+		2A1E7DA12A7EA7A100D6027F /* GetColorElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1E7DA02A7EA7A100D6027F /* GetColorElements.swift */; };
 		2A5FDA282A6CF70800DD7A34 /* ColorChartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FDA272A6CF70800DD7A34 /* ColorChartApp.swift */; };
 		2A5FDA2A2A6CF70800DD7A34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5FDA292A6CF70800DD7A34 /* ContentView.swift */; };
 		2A5FDA2C2A6CF70900DD7A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A5FDA2B2A6CF70900DD7A34 /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A1E7D9E2A7E991100D6027F /* ColorElementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorElementsView.swift; sourceTree = "<group>"; };
+		2A1E7DA02A7EA7A100D6027F /* GetColorElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetColorElements.swift; sourceTree = "<group>"; };
 		2A5FDA242A6CF70800DD7A34 /* ColorChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5FDA272A6CF70800DD7A34 /* ColorChartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChartApp.swift; sourceTree = "<group>"; };
 		2A5FDA292A6CF70800DD7A34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,7 +105,9 @@
 				2A5FDA272A6CF70800DD7A34 /* ColorChartApp.swift */,
 				2A5FDA292A6CF70800DD7A34 /* ContentView.swift */,
 				2A77ED1C2A762B8500296720 /* DetailView.swift */,
+				2A1E7D9E2A7E991100D6027F /* ColorElementsView.swift */,
 				2A77ED1A2A7607AE00296720 /* ColorLibrary.swift */,
+				2A1E7DA02A7EA7A100D6027F /* GetColorElements.swift */,
 				2A5FDA2B2A6CF70900DD7A34 /* Assets.xcassets */,
 				2A5FDA2D2A6CF70900DD7A34 /* Preview Content */,
 			);
@@ -266,7 +272,9 @@
 				2A5FDA2A2A6CF70800DD7A34 /* ContentView.swift in Sources */,
 				2A77ED1D2A762B8500296720 /* DetailView.swift in Sources */,
 				2A77ED1B2A7607AE00296720 /* ColorLibrary.swift in Sources */,
+				2A1E7DA12A7EA7A100D6027F /* GetColorElements.swift in Sources */,
 				2A5FDA282A6CF70800DD7A34 /* ColorChartApp.swift in Sources */,
+				2A1E7D9F2A7E991100D6027F /* ColorElementsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
