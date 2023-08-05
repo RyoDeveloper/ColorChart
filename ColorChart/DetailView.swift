@@ -21,10 +21,7 @@ struct DetailView: View {
 
             ColorElementsView(color: selection.color)
 
-            Image(systemName: "app.fill")
-                .resizable()
-                .scaledToFit()
-                .foregroundColor(selection.color)
+            ColorRectangleView(color: selection.color)
         }
         .padding(.horizontal)
     }

@@ -21,9 +21,7 @@ struct ContentView: View {
                             Label {
                                 Text(assets.name)
                             } icon: {
-                                Image(systemName: "app.fill")
-                                    .font(.title2)
-                                    .foregroundColor(assets.color)
+                                ColorRectangleView(color: assets.color)
                             }
                             .tag(assets)
                         }
