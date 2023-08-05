@@ -19,9 +19,18 @@ struct DetailView: View {
                 .textSelection(.enabled)
                 .frame(maxWidth: .infinity, alignment: .leading)
 
-            ColorElementsView(color: selection.color)
+            ViewThatFits(in: .horizontal) {
+                HStack {
+                    ColorElementsView(color: selection.color)
 
-            ColorRectangleView(color: selection.color)
+                    ColorRectangleView(color: selection.color)
+                }
+                VStack {
+                    ColorElementsView(color: selection.color)
+
+                    ColorRectangleView(color: selection.color)
+                }
+            }
         }
         .padding(.horizontal)
     }
