@@ -32,7 +32,7 @@ struct DetailView: View {
                 }
             }
         }
-        .padding(.horizontal)
+        .padding([.leading, .bottom, .trailing])
     }
 }
 
